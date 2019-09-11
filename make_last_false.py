@@ -6,11 +6,7 @@ def make_last_false(n):
         yield  bool(i)
         
 
-if __name__ == "__main__":
-    n = 10
-    
-    print(list(make_last_false(n)))
-    
-#     this while loop ends in an endless loop
-#     while make_last_false(n):
-#         pass
+# this function with a while loop ends in an endless loop
+def make_last_false_while(n):
+    while make_last_false(n):
+        pass
