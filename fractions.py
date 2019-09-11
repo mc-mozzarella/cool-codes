@@ -30,7 +30,3 @@ def greatest_common_divisor(a, b):
         else:
             raise
 
-if __name__ == "__main__":
-    print(simplify_fraction(2,4))
-    print(simplify_fraction(432,6048))
-    print(greatest_common_divisor(432,6048))
