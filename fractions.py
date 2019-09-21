@@ -30,3 +30,18 @@ def greatest_common_divisor(a, b):
         else:
             raise
 
+
+def greatest_common_divisor_args(*args):
+    """
+    Finds the GCD of a tuple of values
+    """
+
+    for num in args:
+        pass
+
+
+def gcd(a,b):
+    while b != 0:
+        a, b = b, a%b
+    else:
+        return a
